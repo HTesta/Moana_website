@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moana Caramela</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Pacifico&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>  
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./images/Moana_logo.jpg" alt="Foto da cachorra">
+                <h1>Moana Caramela</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#history">História</a>
+                    </li>
+                    <li>
+                        <a href="#photos">Fotos</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contato</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/moanacaramela?igsh=cThvdzk3eHgzNWI5">
+                            <img src="./images/instagram.png" alt="Instagram logo">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="history">
+        <div class="container">
+            <h2>História</h2>
+        <p>
+            Minha história começou em algum dia indefinido quando nasci em Itapejara D´Oeste, não sei interpretar calendários.<br>
+            Eu era a filhotinha mais caramela de todas!<br> 
+            Com pouco menos de 1 ano de vida a carrocinha me encontrou e fui levada a um abrigo. Eu era muito levada antes disso, o que me levou a ganhar uma paulada na cabeça enquanto corria atrás de umas galinhas.<br>
+            Pouco depois, sem meu consentimento, me castraram!<br>
+            Em um dia pacato enquanto refletia sobre a vida um casal de humanos chegou, falando que buscavam uma companhia de pequeno porte e comportada, então pensei, esse local já está bem lotado, vou dar meu jeito de sair daqui. Sendo assim ativei meu modo sossego e mostrei o comportamento em canina.<br>
+            Os 2 trouxas se apaixonarem por mim, como planejado. Então me despedi dos meus amigos, passei meu cargo de síndica para um dos conselheiros e parti.<br>
+            Depois comecei a levar a vida de rainha que o destino havia me prometido...<br><br>
+            Para mais cãoteudo sobre minha vida, me siga no Instagram!
+        </p>
+        </div>
+    </section>
+    <section id="photos">
+        <div class="container container_photos">
+            <h2>Fotos</h2>
+            <div class="gallery">
+                <img src="./images/Moana_1.jpg" alt="Foto de Moana 1" class="gallery_photo moana1">
+                <img src="./images/Moana_3.jpg" alt="Foto de Moana 3" class="gallery_photo moana3">
+                <img src="./images/Moana_2.jpg" alt="Foto de Moana 2" class="gallery_photo moana2">
+                <img src="./images/Moana_4.jpg" alt="Foto de Moana 4" class="gallery_photo moana4">
+                <img src="./images/Moana_5.jpg" alt="Foto de Moana 5" class="gallery_photo moana5">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Precisando de uma modelo Pet? Entre em contato! <br>
+                (Pelo Instagram porque meu pai esta aprendendo front-end ainda e essa mensagem não vai a lugar algum!)</h2>
+            <form>
+                <div>
+                    <label for="name">Nome: </label>
+                    <input id="name" type="text" placeholder="Nome" required><br>
+                </div>
+                <div>
+                    <label for="phone">Telefone: </label>
+                    <input id="phone" type="tel" placeholder="(xx)xxxxx-xxxx" required><br>
+                </div>
+                <div>
+                    <label for="email">E-mail: </label>
+                    <input id="email" type="email" placeholder="Email" required><br>
+                </div>
+                <div class="message_area">
+                    <label for="message">Mensagem: </label>
+                    <textarea id="message" type="text" placeholder="Mensagem" required></textarea><br>
+                </div>
+                <input type="button" onclick="alert()" value="Enviar">
+            </form>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #bb9878;
+}
+
+section {
+    background-color: #D3C7B1;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header .container {
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .container .logo h1{
+    padding-left: 20px;
+}
+
+.logo img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+header .container nav ul{
+    display: flex;
+    align-items: center;
+}
+
+li {
+    display: inline;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+header a img {
+    height: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: black
+}
+
+header,
+section h2 {
+    font-family: "Pacifico", sans-serif;
+}
+
+section {
+    padding: 20px 0px 0 0;
+}
+
+section p {
+    text-align: justify;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 500px;
+}
+
+.gallery_photo {
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 10px 20px rgba(0,0,0,0.4);
+    position: absolute;
+    transition: 0.2s;
+}
+
+.moana1 {
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.moana5 {
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+}
+
+.moana4 {
+    top: 60px;
+    right: 20%;
+    z-index: 3;
+}
+
+.moana2 {
+    top: 120px;
+    right: 40%;
+    z-index: 5;
+}
+
+.moana3 {
+    top: 60px;
+    left: 20%;
+    z-index: 4;
+}
+
+.gallery_photo:hover {
+    outline: 15px solid #bb9878;
+    transform: scale(1.8) translate(-20px);
+    z-index: 9;
+}
+
+form {
+    padding: 20px 0 0 50px;
+
+}
+
+form label,
+form input {
+    margin: 0 0 10px 0;
+}
+
+.message_area {
+    display: flex;
+    vertical-align: text-top;
+}
